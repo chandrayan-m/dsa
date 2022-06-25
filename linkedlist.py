@@ -15,3 +15,16 @@ class LinkedList:
     # List object
     def __init__(self):
         self.head = None
+
+# First Simple Linked List 
+# Code execution starts here
+if __name__=='__main__':
+ 
+    # Start with the empty list
+    llist = LinkedList()
+ 
+    llist.head = Node(1)
+    second = Node(2)
+    third = Node(3)
+    llist.head.next = second;
+    second.next = third; 
